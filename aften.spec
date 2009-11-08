@@ -50,6 +50,9 @@ This package contains static development files for %{name}.
 %prep
 %setup -q -n %{name}
 
+# fix install with x86_64
+sed -i -e "s|lib\${LIB_SUFFIX}|%{_lib}|g" CMakeLists.txt
+
 %build
 mkdir build
 cd build

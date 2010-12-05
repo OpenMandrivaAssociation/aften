@@ -7,7 +7,7 @@
 Name:		       	aften
 Summary:    		An A/52 audio encoder
 Version:    		0.0.8
-Release:    		%mkrel 0.svn%{svn}.2
+Release:    		%mkrel 0.svn%{svn}.3
 License:    		GPLv2+ and LGPLv2+ and BSD
 Group:      		Sound
 Source:     		%{name}-%{svn}.tar.bz2

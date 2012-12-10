@@ -89,3 +89,18 @@ rm -rf %{buildroot}
 %defattr(-,root,root)
 %{_libdir}/*.a
 
+
+
+%changelog
+* Tue Mar 15 2011 Stéphane Téletchéa <steletch@mandriva.org> 0.05-1mdv2011.0
++ Revision: 644990
+- update to new version 0.05
+
+* Sun Dec 05 2010 Oden Eriksson <oeriksson@mandriva.com> 0.0.8-0.svnr843.3mdv2011.0
++ Revision: 609922
+- rebuild
+
+* Sun Nov 08 2009 Jérôme Brenier <incubusss@mandriva.org> 0.0.8-0.svnr843.2mdv2010.1
++ Revision: 462953
+- import aften
+

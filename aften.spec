@@ -3,6 +3,7 @@
 %define libname		%mklibname %{name} %{major}
 %define develname	%mklibname %{name} -d
 %define staticdevelname	%mklibname %{name} -d -s
+%define debug_package          %{nil}
 
 Name:		       	aften
 Summary:    		An A/52 audio encoder

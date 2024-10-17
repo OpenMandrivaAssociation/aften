@@ -12,7 +12,7 @@ Release:    		1
 License:    		GPLv2+ and LGPLv2+ and BSD
 Group:      		Sound
 Source:     		http://downloads.sourceforge.net/aften/aften-%{version}.tar.bz2
-URL:        		http://aften.sourceforge.net/
+URL:        		https://aften.sourceforge.net/
 BuildRequires:		cmake
 BuildRequires:		ninja
 Requires:		%{libname} = %{version}-%{release}
